@@ -1,0 +1,1953 @@
+{
+ "requests": {
+  "version": "2.34.2",
+  "github_repo": "psf/requests",
+  "found": true,
+  "direct_deps": [
+   "certifi",
+   "charset-normalizer",
+   "idna",
+   "urllib3"
+  ],
+  "transitive_deps": [
+   "certifi",
+   "charset-normalizer",
+   "idna",
+   "urllib3"
+  ],
+  "n_direct": 4,
+  "n_transitive": 4
+ },
+ "flask": {
+  "version": "3.1.3",
+  "github_repo": "pallets/flask",
+  "found": true,
+  "direct_deps": [
+   "blinker",
+   "click",
+   "importlib-metadata",
+   "itsdangerous",
+   "jinja2",
+   "markupsafe",
+   "werkzeug"
+  ],
+  "transitive_deps": [
+   "blinker",
+   "click",
+   "importlib-metadata",
+   "itsdangerous",
+   "jinja2",
+   "markupsafe",
+   "werkzeug",
+   "zipp"
+  ],
+  "n_direct": 7,
+  "n_transitive": 8
+ },
+ "django": {
+  "version": "6.1.2",
+  "github_repo": "django/django",
+  "found": true,
+  "direct_deps": [
+   "asgiref",
+   "sqlparse"
+  ],
+  "transitive_deps": [
+   "asgiref",
+   "sqlparse"
+  ],
+  "n_direct": 2,
+  "n_transitive": 2
+ },
+ "fastapi": {
+  "version": "0.162.0",
+  "github_repo": "fastapi/fastapi",
+  "found": true,
+  "direct_deps": [
+   "annotated-doc",
+   "opentelemetry-api",
+   "pydantic",
+   "starlette",
+   "typing-extensions",
+   "typing-inspection"
+  ],
+  "transitive_deps": [
+   "annotated-doc",
+   "annotated-types",
+   "anyio",
+   "exceptiongroup",
+   "idna",
+   "opentelemetry-api",
+   "pydantic",
+   "pydantic-core",
+   "starlette",
+   "typing-extensions",
+   "typing-inspection"
+  ],
+  "n_direct": 6,
+  "n_transitive": 11
+ },
+ "numpy": {
+  "version": "2.5.4",
+  "github_repo": "numpy/numpy",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "pandas": {
+  "version": "3.1.0",
+  "github_repo": "pandas-dev/pandas",
+  "found": true,
+  "direct_deps": [
+   "numpy",
+   "python-dateutil",
+   "tzdata"
+  ],
+  "transitive_deps": [
+   "numpy",
+   "python-dateutil",
+   "tzdata"
+  ],
+  "n_direct": 3,
+  "n_transitive": 3
+ },
+ "scipy": {
+  "version": "1.18.1",
+  "github_repo": "scipy/scipy",
+  "found": true,
+  "direct_deps": [
+   "numpy"
+  ],
+  "transitive_deps": [
+   "numpy"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "matplotlib": {
+  "version": "3.11.2",
+  "github_repo": "matplotlib/matplotlib",
+  "found": true,
+  "direct_deps": [
+   "contourpy",
+   "cycler",
+   "fonttools",
+   "kiwisolver",
+   "numpy",
+   "packaging",
+   "pillow",
+   "pyparsing",
+   "python-dateutil"
+  ],
+  "transitive_deps": [
+   "contourpy",
+   "cycler",
+   "fonttools",
+   "kiwisolver",
+   "numpy",
+   "packaging",
+   "pillow",
+   "pyparsing",
+   "python-dateutil",
+   "tzdata"
+  ],
+  "n_direct": 9,
+  "n_transitive": 10
+ },
+ "seaborn": {
+  "version": "0.13.2",
+  "github_repo": "mwaskom/seaborn",
+  "found": true,
+  "direct_deps": [
+   "matplotlib",
+   "numpy",
+   "pandas"
+  ],
+  "transitive_deps": [
+   "contourpy",
+   "cycler",
+   "fonttools",
+   "kiwisolver",
+   "matplotlib",
+   "numpy",
+   "packaging",
+   "pandas",
+   "pillow",
+   "pyparsing",
+   "python-dateutil",
+   "tzdata"
+  ],
+  "n_direct": 3,
+  "n_transitive": 12
+ },
+ "scikit-learn": {
+  "version": "1.9.1",
+  "github_repo": "scikit-learn/scikit-learn",
+  "found": true,
+  "direct_deps": [
+   "joblib",
+   "narwhals",
+   "numpy",
+   "scipy",
+   "threadpoolctl"
+  ],
+  "transitive_deps": [
+   "cloudpickle",
+   "joblib",
+   "narwhals",
+   "numpy",
+   "scipy",
+   "threadpoolctl"
+  ],
+  "n_direct": 5,
+  "n_transitive": 6
+ },
+ "pytest": {
+  "version": "9.2.0",
+  "github_repo": "pytest-dev/pytest",
+  "found": true,
+  "direct_deps": [
+   "exceptiongroup",
+   "iniconfig",
+   "packaging",
+   "pluggy",
+   "pygments",
+   "tomli"
+  ],
+  "transitive_deps": [
+   "exceptiongroup",
+   "iniconfig",
+   "packaging",
+   "pluggy",
+   "pygments",
+   "tomli",
+   "typing-extensions"
+  ],
+  "n_direct": 6,
+  "n_transitive": 7
+ },
+ "black": {
+  "version": "26.10.1",
+  "github_repo": "psf/black",
+  "found": true,
+  "direct_deps": [
+   "click",
+   "mypy-extensions",
+   "packaging",
+   "pathspec",
+   "platformdirs",
+   "pytokens",
+   "tomli",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "click",
+   "mypy-extensions",
+   "packaging",
+   "pathspec",
+   "platformdirs",
+   "pytokens",
+   "tomli",
+   "typing-extensions"
+  ],
+  "n_direct": 8,
+  "n_transitive": 8
+ },
+ "pylint": {
+  "version": "4.1.3",
+  "github_repo": "pylint-dev/pylint",
+  "found": true,
+  "direct_deps": [
+   "astroid",
+   "dill",
+   "isort",
+   "mccabe",
+   "platformdirs",
+   "tomli",
+   "tomlkit",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "astroid",
+   "dill",
+   "isort",
+   "mccabe",
+   "mypy-extensions",
+   "platformdirs",
+   "tomli",
+   "tomlkit",
+   "typing-extensions"
+  ],
+  "n_direct": 8,
+  "n_transitive": 9
+ },
+ "flake8": {
+  "version": "7.5.0",
+  "github_repo": "pycqa/flake8",
+  "found": true,
+  "direct_deps": [
+   "mccabe",
+   "pycodestyle",
+   "pyflakes"
+  ],
+  "transitive_deps": [
+   "mccabe",
+   "pycodestyle",
+   "pyflakes"
+  ],
+  "n_direct": 3,
+  "n_transitive": 3
+ },
+ "mypy": {
+  "version": "2.4.1",
+  "github_repo": "python/mypy",
+  "found": true,
+  "direct_deps": [
+   "ast-serialize",
+   "librt",
+   "mypy-extensions",
+   "pathspec",
+   "tomli",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "ast-serialize",
+   "librt",
+   "mypy-extensions",
+   "pathspec",
+   "tomli",
+   "typing-extensions"
+  ],
+  "n_direct": 6,
+  "n_transitive": 6
+ },
+ "sphinx": {
+  "version": "9.2.0",
+  "github_repo": "sphinx-doc/sphinx",
+  "found": true,
+  "direct_deps": [
+   "alabaster",
+   "babel",
+   "docutils",
+   "imagesize",
+   "jinja2",
+   "packaging",
+   "pygments",
+   "requests",
+   "roman-numerals",
+   "snowballstemmer",
+   "sphinxcontrib-applehelp",
+   "sphinxcontrib-devhelp",
+   "sphinxcontrib-htmlhelp",
+   "sphinxcontrib-jsmath",
+   "sphinxcontrib-qthelp",
+   "sphinxcontrib-serializinghtml"
+  ],
+  "transitive_deps": [
+   "alabaster",
+   "babel",
+   "certifi",
+   "charset-normalizer",
+   "docutils",
+   "idna",
+   "imagesize",
+   "jinja2",
+   "markupsafe",
+   "packaging",
+   "pygments",
+   "requests",
+   "roman-numerals",
+   "snowballstemmer",
+   "sphinxcontrib-applehelp",
+   "sphinxcontrib-devhelp",
+   "sphinxcontrib-htmlhelp",
+   "sphinxcontrib-jsmath",
+   "sphinxcontrib-qthelp",
+   "sphinxcontrib-serializinghtml",
+   "urllib3"
+  ],
+  "n_direct": 16,
+  "n_transitive": 21
+ },
+ "notebook": {
+  "version": "7.6.4",
+  "github_repo": "jupyter/notebook",
+  "found": true,
+  "direct_deps": [
+   "jupyter-builder",
+   "jupyter-server",
+   "jupyterlab",
+   "jupyterlab-server",
+   "notebook-shim",
+   "tornado"
+  ],
+  "transitive_deps": [
+   "anyio",
+   "appnope",
+   "argon2-cffi",
+   "argon2-cffi-bindings",
+   "asttokens",
+   "async-lru",
+   "attrs",
+   "babel",
+   "beautifulsoup4",
+   "bleach",
+   "certifi",
+   "cffi",
+   "charset-normalizer",
+   "comm",
+   "debugpy",
+   "defusedxml",
+   "exceptiongroup",
+   "executing",
+   "fastjsonschema",
+   "h11",
+   "httpcore",
+   "httpx",
+   "idna",
+   "importlib-metadata",
+   "ipykernel",
+   "ipython",
+   "ipython-pygments-lexers",
+   "jedi",
+   "jinja2",
+   "json5",
+   "jsonschema",
+   "jsonschema-specifications",
+   "jupyter-builder",
+   "jupyter-client",
+   "jupyter-core",
+   "jupyter-events",
+   "jupyter-lsp",
+   "jupyter-server",
+   "jupyter-server-terminals",
+   "jupyterlab",
+   "jupyterlab-pygments",
+   "jupyterlab-server",
+   "markupsafe",
+   "matplotlib-inline",
+   "mistune",
+   "nbclient",
+   "nbconvert",
+   "nbformat",
+   "nest-asyncio2",
+   "notebook-shim",
+   "overrides",
+   "packaging",
+   "pandocfilters",
+   "parso",
+   "pexpect",
+   "platformdirs",
+   "prometheus-client",
+   "prompt-toolkit",
+   "psutil",
+   "ptyprocess",
+   "pure-eval",
+   "pycparser",
+   "pygments",
+   "python-dateutil",
+   "python-json-logger",
+   "pyyaml",
+   "pyzmq",
+   "referencing",
+   "requests",
+   "rfc3339-validator",
+   "rfc3986-validator",
+   "rpds-py",
+   "send2trash",
+   "six",
+   "soupsieve",
+   "stack-data",
+   "terminado",
+   "tomli",
+   "tornado",
+   "traitlets",
+   "typing-extensions",
+   "tzdata",
+   "urllib3",
+   "wcwidth",
+   "webencodings",
+   "websocket-client",
+   "zipp"
+  ],
+  "n_direct": 6,
+  "n_transitive": 87
+ },
+ "ipython": {
+  "version": "9.18.1",
+  "github_repo": "ipython/ipython",
+  "found": true,
+  "direct_deps": [
+   "ipython-pygments-lexers",
+   "jedi",
+   "matplotlib-inline",
+   "pexpect",
+   "prompt-toolkit",
+   "psutil",
+   "pygments",
+   "stack-data",
+   "traitlets",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "asttokens",
+   "executing",
+   "ipython-pygments-lexers",
+   "jedi",
+   "matplotlib-inline",
+   "parso",
+   "pexpect",
+   "prompt-toolkit",
+   "psutil",
+   "ptyprocess",
+   "pure-eval",
+   "pygments",
+   "stack-data",
+   "traitlets",
+   "typing-extensions",
+   "wcwidth"
+  ],
+  "n_direct": 10,
+  "n_transitive": 16
+ },
+ "tornado": {
+  "version": "6.6",
+  "github_repo": "tornadoweb/tornado",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "aiohttp": {
+  "version": "3.14.5",
+  "github_repo": "aio-libs/aiohttp",
+  "found": true,
+  "direct_deps": [
+   "aiohappyeyeballs",
+   "aiosignal",
+   "async-timeout",
+   "attrs",
+   "frozenlist",
+   "multidict",
+   "propcache",
+   "typing-extensions",
+   "yarl"
+  ],
+  "transitive_deps": [
+   "aiohappyeyeballs",
+   "aiosignal",
+   "async-timeout",
+   "attrs",
+   "frozenlist",
+   "idna",
+   "multidict",
+   "propcache",
+   "typing-extensions",
+   "yarl"
+  ],
+  "n_direct": 9,
+  "n_transitive": 10
+ },
+ "httpx": {
+  "version": "0.28.1",
+  "github_repo": "encode/httpx",
+  "found": true,
+  "direct_deps": [
+   "anyio",
+   "certifi",
+   "httpcore",
+   "idna"
+  ],
+  "transitive_deps": [
+   "anyio",
+   "certifi",
+   "exceptiongroup",
+   "h11",
+   "httpcore",
+   "idna",
+   "typing-extensions"
+  ],
+  "n_direct": 4,
+  "n_transitive": 7
+ },
+ "urllib3": {
+  "version": "2.8.0",
+  "github_repo": "urllib3/urllib3",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "boto3": {
+  "version": "1.43.123",
+  "github_repo": "boto/boto3",
+  "found": true,
+  "direct_deps": [
+   "botocore",
+   "jmespath",
+   "s3transfer"
+  ],
+  "transitive_deps": [
+   "botocore",
+   "jmespath",
+   "python-dateutil",
+   "s3transfer",
+   "tzdata",
+   "urllib3"
+  ],
+  "n_direct": 3,
+  "n_transitive": 6
+ },
+ "sqlalchemy": {
+  "version": "2.1.6",
+  "github_repo": "sqlalchemy/sqlalchemy",
+  "found": true,
+  "direct_deps": [
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "typing-extensions"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "celery": {
+  "version": "5.6.3",
+  "github_repo": "celery/celery",
+  "found": true,
+  "direct_deps": [
+   "billiard",
+   "click",
+   "click-didyoumean",
+   "click-plugins",
+   "click-repl",
+   "exceptiongroup",
+   "kombu",
+   "python-dateutil",
+   "tzlocal",
+   "vine"
+  ],
+  "transitive_deps": [
+   "amqp",
+   "billiard",
+   "click",
+   "click-didyoumean",
+   "click-plugins",
+   "click-repl",
+   "exceptiongroup",
+   "kombu",
+   "packaging",
+   "prompt-toolkit",
+   "python-dateutil",
+   "typing-extensions",
+   "tzdata",
+   "tzlocal",
+   "vine",
+   "wcwidth"
+  ],
+  "n_direct": 10,
+  "n_transitive": 16
+ },
+ "redis": {
+  "version": "8.1.0",
+  "github_repo": "redis/redis-py",
+  "found": true,
+  "direct_deps": [
+   "async-timeout"
+  ],
+  "transitive_deps": [
+   "async-timeout"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "pillow": {
+  "version": "13.0.0",
+  "github_repo": "python-pillow/Pillow",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "pydantic": {
+  "version": "2.14.2",
+  "github_repo": "pydantic/pydantic",
+  "found": true,
+  "direct_deps": [
+   "annotated-types",
+   "pydantic-core",
+   "typing-extensions",
+   "typing-inspection"
+  ],
+  "transitive_deps": [
+   "annotated-types",
+   "pydantic-core",
+   "typing-extensions",
+   "typing-inspection"
+  ],
+  "n_direct": 4,
+  "n_transitive": 4
+ },
+ "click": {
+  "version": "8.5.0",
+  "github_repo": "pallets/click",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "rich": {
+  "version": "15.0.0",
+  "github_repo": "Textualize/rich",
+  "found": true,
+  "direct_deps": [
+   "markdown-it-py",
+   "pygments"
+  ],
+  "transitive_deps": [
+   "markdown-it-py",
+   "mdurl",
+   "pygments"
+  ],
+  "n_direct": 2,
+  "n_transitive": 3
+ },
+ "typer": {
+  "version": "0.27.3",
+  "github_repo": "fastapi/typer",
+  "found": true,
+  "direct_deps": [
+   "annotated-doc",
+   "rich",
+   "shellingham"
+  ],
+  "transitive_deps": [
+   "annotated-doc",
+   "markdown-it-py",
+   "mdurl",
+   "pygments",
+   "rich",
+   "shellingham"
+  ],
+  "n_direct": 3,
+  "n_transitive": 6
+ },
+ "jinja2": {
+  "version": "3.1.6",
+  "github_repo": "pallets/jinja",
+  "found": true,
+  "direct_deps": [
+   "markupsafe"
+  ],
+  "transitive_deps": [
+   "markupsafe"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "werkzeug": {
+  "version": "3.1.9",
+  "github_repo": "pallets/werkzeug",
+  "found": true,
+  "direct_deps": [
+   "markupsafe"
+  ],
+  "transitive_deps": [
+   "markupsafe"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "gunicorn": {
+  "version": "26.2.0",
+  "github_repo": "benoitc/gunicorn",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "uvicorn": {
+  "version": "0.54.0",
+  "github_repo": "encode/uvicorn",
+  "found": true,
+  "direct_deps": [
+   "click",
+   "h11",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "click",
+   "h11",
+   "typing-extensions"
+  ],
+  "n_direct": 3,
+  "n_transitive": 3
+ },
+ "scrapy": {
+  "version": "2.19.0",
+  "github_repo": "scrapy/scrapy",
+  "found": true,
+  "direct_deps": [
+   "aiohttp",
+   "backports-zstd",
+   "brotli",
+   "charset-normalizer",
+   "cryptography",
+   "cssselect",
+   "defusedxml",
+   "itemadapter",
+   "itemloaders",
+   "lxml",
+   "packaging",
+   "parsel",
+   "platformdirs",
+   "protego",
+   "pydispatcher",
+   "pyopenssl",
+   "queuelib",
+   "service-identity",
+   "tldextract",
+   "twisted",
+   "w3lib",
+   "zope-interface"
+  ],
+  "transitive_deps": [
+   "aiohappyeyeballs",
+   "aiohttp",
+   "aiosignal",
+   "async-timeout",
+   "attrs",
+   "automat",
+   "backports-zstd",
+   "brotli",
+   "certifi",
+   "cffi",
+   "charset-normalizer",
+   "constantly",
+   "cryptography",
+   "cssselect",
+   "defusedxml",
+   "filelock",
+   "frozenlist",
+   "hyperlink",
+   "idna",
+   "incremental",
+   "itemadapter",
+   "itemloaders",
+   "jmespath",
+   "lxml",
+   "multidict",
+   "packaging",
+   "parsel",
+   "platformdirs",
+   "propcache",
+   "protego",
+   "pycparser",
+   "pydispatcher",
+   "pyopenssl",
+   "queuelib",
+   "requests",
+   "requests-file",
+   "service-identity",
+   "tldextract",
+   "tomli",
+   "twisted",
+   "typing-extensions",
+   "urllib3",
+   "w3lib",
+   "yarl",
+   "zope-interface"
+  ],
+  "n_direct": 22,
+  "n_transitive": 45
+ },
+ "lxml": {
+  "version": "6.1.3",
+  "github_repo": "lxml/lxml",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "pyyaml": {
+  "version": "6.0.3",
+  "github_repo": "yaml/pyyaml",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "paramiko": {
+  "version": "5.1.0",
+  "github_repo": "paramiko/paramiko",
+  "found": true,
+  "direct_deps": [
+   "bcrypt",
+   "cryptography",
+   "invoke",
+   "pynacl"
+  ],
+  "transitive_deps": [
+   "bcrypt",
+   "cffi",
+   "cryptography",
+   "invoke",
+   "pycparser",
+   "pynacl",
+   "typing-extensions"
+  ],
+  "n_direct": 4,
+  "n_transitive": 7
+ },
+ "fabric": {
+  "version": "3.2.3",
+  "github_repo": "fabric/fabric",
+  "found": true,
+  "direct_deps": [
+   "decorator",
+   "deprecated",
+   "invoke",
+   "paramiko"
+  ],
+  "transitive_deps": [
+   "bcrypt",
+   "cffi",
+   "cryptography",
+   "decorator",
+   "deprecated",
+   "invoke",
+   "paramiko",
+   "pycparser",
+   "pynacl",
+   "typing-extensions",
+   "wrapt"
+  ],
+  "n_direct": 4,
+  "n_transitive": 11
+ },
+ "ansible-core": {
+  "version": "2.22.0",
+  "github_repo": "ansible/ansible",
+  "found": true,
+  "direct_deps": [
+   "cryptography",
+   "jinja2",
+   "packaging",
+   "pyyaml",
+   "resolvelib"
+  ],
+  "transitive_deps": [
+   "cffi",
+   "cryptography",
+   "jinja2",
+   "markupsafe",
+   "packaging",
+   "pycparser",
+   "pyyaml",
+   "resolvelib",
+   "typing-extensions"
+  ],
+  "n_direct": 5,
+  "n_transitive": 9
+ },
+ "poetry": {
+  "version": "2.5.1",
+  "github_repo": "python-poetry/poetry",
+  "found": true,
+  "direct_deps": [
+   "build",
+   "cachecontrol",
+   "cleo",
+   "dulwich",
+   "fastjsonschema",
+   "findpython",
+   "installer",
+   "keyring",
+   "packaging",
+   "pbs-installer",
+   "pkginfo",
+   "platformdirs",
+   "poetry-core",
+   "pyproject-hooks",
+   "requests",
+   "requests-toolbelt",
+   "shellingham",
+   "tomli",
+   "tomlkit",
+   "trove-classifiers",
+   "virtualenv",
+   "xattr"
+  ],
+  "transitive_deps": [
+   "backports-tarfile",
+   "build",
+   "cachecontrol",
+   "certifi",
+   "cffi",
+   "charset-normalizer",
+   "cleo",
+   "crashtest",
+   "cryptography",
+   "distlib",
+   "dulwich",
+   "fastjsonschema",
+   "filelock",
+   "findpython",
+   "idna",
+   "importlib-metadata",
+   "installer",
+   "jaraco-classes",
+   "jaraco-context",
+   "jaraco-functools",
+   "jeepney",
+   "keyring",
+   "more-itertools",
+   "msgpack",
+   "packaging",
+   "pbs-installer",
+   "pkginfo",
+   "platformdirs",
+   "poetry-core",
+   "pycparser",
+   "pyproject-hooks",
+   "python-discovery",
+   "rapidfuzz",
+   "requests",
+   "requests-toolbelt",
+   "secretstorage",
+   "shellingham",
+   "tomli",
+   "tomlkit",
+   "trove-classifiers",
+   "typing-extensions",
+   "urllib3",
+   "virtualenv",
+   "xattr",
+   "zipp"
+  ],
+  "n_direct": 22,
+  "n_transitive": 45
+ },
+ "pipenv": {
+  "version": "2026.10.5",
+  "github_repo": "pypa/pipenv",
+  "found": true,
+  "direct_deps": [
+   "certifi",
+   "filelock",
+   "packaging",
+   "setuptools",
+   "virtualenv"
+  ],
+  "transitive_deps": [
+   "certifi",
+   "distlib",
+   "filelock",
+   "packaging",
+   "platformdirs",
+   "python-discovery",
+   "setuptools",
+   "typing-extensions",
+   "virtualenv"
+  ],
+  "n_direct": 5,
+  "n_transitive": 9
+ },
+ "tox": {
+  "version": "4.67.6",
+  "github_repo": "tox-dev/tox",
+  "found": true,
+  "direct_deps": [
+   "cachetools",
+   "colorama",
+   "filelock",
+   "packaging",
+   "platformdirs",
+   "pluggy",
+   "pyproject-api",
+   "python-discovery",
+   "tomli-w",
+   "typing-extensions",
+   "virtualenv"
+  ],
+  "transitive_deps": [
+   "cachetools",
+   "colorama",
+   "distlib",
+   "filelock",
+   "packaging",
+   "platformdirs",
+   "pluggy",
+   "pyproject-api",
+   "python-discovery",
+   "tomli-w",
+   "typing-extensions",
+   "virtualenv"
+  ],
+  "n_direct": 11,
+  "n_transitive": 12
+ },
+ "nltk": {
+  "version": "3.10.4",
+  "github_repo": "nltk/nltk",
+  "found": true,
+  "direct_deps": [
+   "click",
+   "defusedxml",
+   "joblib",
+   "regex",
+   "tqdm"
+  ],
+  "transitive_deps": [
+   "click",
+   "cloudpickle",
+   "defusedxml",
+   "joblib",
+   "regex",
+   "tqdm"
+  ],
+  "n_direct": 5,
+  "n_transitive": 6
+ },
+ "spacy": {
+  "version": "3.8.18",
+  "github_repo": "explosion/spaCy",
+  "found": true,
+  "direct_deps": [
+   "catalogue",
+   "click",
+   "confection",
+   "cymem",
+   "jinja2",
+   "murmurhash",
+   "numpy",
+   "packaging",
+   "preshed",
+   "pydantic",
+   "requests",
+   "setuptools",
+   "spacy-legacy",
+   "spacy-loggers",
+   "srsly",
+   "thinc",
+   "tqdm",
+   "typer",
+   "wasabi",
+   "weasel"
+  ],
+  "transitive_deps": [
+   "annotated-doc",
+   "annotated-types",
+   "anyio",
+   "blis",
+   "catalogue",
+   "certifi",
+   "charset-normalizer",
+   "click",
+   "cloudpathlib",
+   "confection",
+   "cymem",
+   "exceptiongroup",
+   "h11",
+   "httpcore",
+   "httpx",
+   "idna",
+   "jinja2",
+   "markdown-it-py",
+   "markupsafe",
+   "mdurl",
+   "murmurhash",
+   "numpy",
+   "packaging",
+   "preshed",
+   "pydantic",
+   "pydantic-core",
+   "pygments",
+   "requests",
+   "rich",
+   "setuptools",
+   "shellingham",
+   "smart-open",
+   "spacy-legacy",
+   "spacy-loggers",
+   "srsly",
+   "thinc",
+   "tqdm",
+   "typer",
+   "typing-extensions",
+   "typing-inspection",
+   "urllib3",
+   "wasabi",
+   "weasel",
+   "wrapt"
+  ],
+  "n_direct": 20,
+  "n_transitive": 44
+ },
+ "gensim": {
+  "version": "4.4.0",
+  "github_repo": "RaRe-Technologies/gensim",
+  "found": true,
+  "direct_deps": [
+   "numpy",
+   "scipy",
+   "smart-open"
+  ],
+  "transitive_deps": [
+   "numpy",
+   "scipy",
+   "smart-open",
+   "wrapt"
+  ],
+  "n_direct": 3,
+  "n_transitive": 4
+ },
+ "transformers": {
+  "version": "5.22.1",
+  "github_repo": "huggingface/transformers",
+  "found": true,
+  "direct_deps": [
+   "huggingface-hub",
+   "numpy",
+   "packaging",
+   "pyyaml",
+   "regex",
+   "safetensors",
+   "tokenizers",
+   "tqdm",
+   "typer"
+  ],
+  "transitive_deps": [
+   "annotated-doc",
+   "anyio",
+   "click",
+   "exceptiongroup",
+   "filelock",
+   "fsspec",
+   "h11",
+   "hf-xet",
+   "httpcore2",
+   "httpx2",
+   "httpx2-jsfetch",
+   "huggingface-hub",
+   "idna",
+   "markdown-it-py",
+   "mdurl",
+   "numpy",
+   "packaging",
+   "pygments",
+   "pyyaml",
+   "regex",
+   "rich",
+   "safetensors",
+   "shellingham",
+   "tokenizers",
+   "tomli",
+   "tqdm",
+   "truststore",
+   "typer",
+   "typing-extensions"
+  ],
+  "n_direct": 9,
+  "n_transitive": 29
+ },
+ "plotly": {
+  "version": "7.1.0",
+  "github_repo": "plotly/plotly.py",
+  "found": true,
+  "direct_deps": [
+   "narwhals",
+   "packaging"
+  ],
+  "transitive_deps": [
+   "narwhals",
+   "packaging"
+  ],
+  "n_direct": 2,
+  "n_transitive": 2
+ },
+ "dash": {
+  "version": "4.5.0",
+  "github_repo": "plotly/dash",
+  "found": true,
+  "direct_deps": [
+   "comm",
+   "flask",
+   "importlib-metadata",
+   "janus",
+   "nest-asyncio",
+   "plotly",
+   "pydantic",
+   "requests",
+   "retrying",
+   "setuptools",
+   "typing-extensions",
+   "werkzeug"
+  ],
+  "transitive_deps": [
+   "annotated-types",
+   "blinker",
+   "certifi",
+   "charset-normalizer",
+   "click",
+   "comm",
+   "flask",
+   "idna",
+   "importlib-metadata",
+   "itsdangerous",
+   "janus",
+   "jinja2",
+   "markupsafe",
+   "narwhals",
+   "nest-asyncio",
+   "packaging",
+   "plotly",
+   "pydantic",
+   "pydantic-core",
+   "requests",
+   "retrying",
+   "setuptools",
+   "typing-extensions",
+   "typing-inspection",
+   "urllib3",
+   "werkzeug",
+   "zipp"
+  ],
+  "n_direct": 12,
+  "n_transitive": 27
+ },
+ "bokeh": {
+  "version": "3.10.1",
+  "github_repo": "bokeh/bokeh",
+  "found": true,
+  "direct_deps": [
+   "jinja2",
+   "narwhals",
+   "numpy",
+   "packaging",
+   "pillow",
+   "pyyaml",
+   "tornado",
+   "xyzservices"
+  ],
+  "transitive_deps": [
+   "jinja2",
+   "markupsafe",
+   "narwhals",
+   "numpy",
+   "packaging",
+   "pillow",
+   "pyyaml",
+   "tornado",
+   "xyzservices"
+  ],
+  "n_direct": 8,
+  "n_transitive": 9
+ },
+ "streamlit": {
+  "version": "1.66.1",
+  "github_repo": "streamlit/streamlit",
+  "found": true,
+  "direct_deps": [
+   "altair",
+   "anyio",
+   "click",
+   "itsdangerous",
+   "numpy",
+   "packaging",
+   "pandas",
+   "pillow",
+   "protobuf",
+   "pyarrow",
+   "pydeck",
+   "python-multipart",
+   "requests",
+   "starlette",
+   "typing-extensions",
+   "uvicorn",
+   "watchdog",
+   "websockets"
+  ],
+  "transitive_deps": [
+   "altair",
+   "anyio",
+   "attrs",
+   "certifi",
+   "charset-normalizer",
+   "click",
+   "exceptiongroup",
+   "h11",
+   "idna",
+   "itsdangerous",
+   "jinja2",
+   "jsonschema",
+   "jsonschema-specifications",
+   "markupsafe",
+   "narwhals",
+   "numpy",
+   "packaging",
+   "pandas",
+   "pillow",
+   "protobuf",
+   "pyarrow",
+   "pydeck",
+   "python-dateutil",
+   "python-multipart",
+   "referencing",
+   "requests",
+   "rpds-py",
+   "starlette",
+   "typing-extensions",
+   "tzdata",
+   "urllib3",
+   "uvicorn",
+   "watchdog",
+   "websockets"
+  ],
+  "n_direct": 18,
+  "n_transitive": 34
+ },
+ "gradio": {
+  "version": "6.31.0",
+  "github_repo": "gradio-app/gradio",
+  "found": true,
+  "direct_deps": [
+   "anyio",
+   "audioop-lts",
+   "brotli",
+   "fastapi",
+   "gradio-client",
+   "groovy",
+   "hf-gradio",
+   "httpx",
+   "huggingface-hub",
+   "jinja2",
+   "markupsafe",
+   "numpy",
+   "orjson",
+   "packaging",
+   "pandas",
+   "pillow",
+   "pydantic",
+   "pydub",
+   "python-multipart",
+   "pytz",
+   "pyyaml",
+   "safehttpx",
+   "semantic-version",
+   "starlette",
+   "tomlkit",
+   "typer",
+   "typing-extensions",
+   "uvicorn"
+  ],
+  "transitive_deps": [
+   "annotated-doc",
+   "annotated-types",
+   "anyio",
+   "audioop-lts",
+   "brotli",
+   "certifi",
+   "click",
+   "exceptiongroup",
+   "fastapi",
+   "filelock",
+   "fsspec",
+   "gradio-client",
+   "groovy",
+   "h11",
+   "hf-gradio",
+   "hf-xet",
+   "httpcore",
+   "httpcore2",
+   "httpx",
+   "httpx2",
+   "httpx2-jsfetch",
+   "huggingface-hub",
+   "idna",
+   "jinja2",
+   "markdown-it-py",
+   "markupsafe",
+   "mdurl",
+   "numpy",
+   "opentelemetry-api",
+   "orjson",
+   "packaging",
+   "pandas",
+   "pillow",
+   "pydantic",
+   "pydantic-core",
+   "pydub",
+   "pygments",
+   "python-dateutil",
+   "python-multipart",
+   "pytz",
+   "pyyaml",
+   "rich",
+   "safehttpx",
+   "semantic-version",
+   "shellingham",
+   "starlette",
+   "tomli",
+   "tomlkit",
+   "tqdm",
+   "truststore",
+   "typer",
+   "typing-extensions",
+   "typing-inspection",
+   "tzdata",
+   "uvicorn"
+  ],
+  "n_direct": 28,
+  "n_transitive": 55
+ },
+ "networkx": {
+  "version": "3.7",
+  "github_repo": "networkx/networkx",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "sympy": {
+  "version": "1.14.0",
+  "github_repo": "sympy/sympy",
+  "found": true,
+  "direct_deps": [
+   "mpmath"
+  ],
+  "transitive_deps": [
+   "mpmath"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "statsmodels": {
+  "version": "0.15.0",
+  "github_repo": "statsmodels/statsmodels",
+  "found": true,
+  "direct_deps": [
+   "formulaic",
+   "numpy",
+   "packaging",
+   "pandas",
+   "patsy",
+   "scipy"
+  ],
+  "transitive_deps": [
+   "formulaic",
+   "interface-meta",
+   "narwhals",
+   "numpy",
+   "packaging",
+   "pandas",
+   "patsy",
+   "python-dateutil",
+   "scipy",
+   "typing-extensions",
+   "tzdata",
+   "wrapt"
+  ],
+  "n_direct": 6,
+  "n_transitive": 12
+ },
+ "xgboost": {
+  "version": "3.4.1",
+  "github_repo": "dmlc/xgboost",
+  "found": true,
+  "direct_deps": [
+   "numpy",
+   "nvidia-nccl-cu13",
+   "scipy"
+  ],
+  "transitive_deps": [
+   "numpy",
+   "nvidia-nccl-cu13",
+   "scipy"
+  ],
+  "n_direct": 3,
+  "n_transitive": 3
+ },
+ "lightgbm": {
+  "version": "4.7.0",
+  "github_repo": "lightgbm-org/LightGBM",
+  "found": true,
+  "direct_deps": [
+   "narwhals",
+   "numpy",
+   "scipy"
+  ],
+  "transitive_deps": [
+   "narwhals",
+   "numpy",
+   "scipy"
+  ],
+  "n_direct": 3,
+  "n_transitive": 3
+ },
+ "keras": {
+  "version": "3.15.1",
+  "github_repo": "keras-team/keras",
+  "found": true,
+  "direct_deps": [
+   "absl-py",
+   "h5py",
+   "ml-dtypes",
+   "namex",
+   "numpy",
+   "optree",
+   "packaging",
+   "rich"
+  ],
+  "transitive_deps": [
+   "absl-py",
+   "h5py",
+   "markdown-it-py",
+   "mdurl",
+   "ml-dtypes",
+   "namex",
+   "numpy",
+   "optree",
+   "packaging",
+   "pygments",
+   "rich",
+   "typing-extensions"
+  ],
+  "n_direct": 8,
+  "n_transitive": 12
+ },
+ "tensorflow": {
+  "version": "2.21.0",
+  "github_repo": "tensorflow/tensorflow",
+  "found": true,
+  "direct_deps": [
+   "absl-py",
+   "astunparse",
+   "flatbuffers",
+   "gast",
+   "google-pasta",
+   "grpcio",
+   "h5py",
+   "keras",
+   "libclang",
+   "ml-dtypes",
+   "numpy",
+   "opt-einsum",
+   "packaging",
+   "protobuf",
+   "requests",
+   "setuptools",
+   "six",
+   "termcolor",
+   "typing-extensions",
+   "wrapt"
+  ],
+  "transitive_deps": [
+   "absl-py",
+   "astunparse",
+   "certifi",
+   "charset-normalizer",
+   "flatbuffers",
+   "gast",
+   "google-pasta",
+   "grpcio",
+   "h5py",
+   "idna",
+   "keras",
+   "libclang",
+   "markdown-it-py",
+   "mdurl",
+   "ml-dtypes",
+   "namex",
+   "numpy",
+   "opt-einsum",
+   "optree",
+   "packaging",
+   "protobuf",
+   "pygments",
+   "requests",
+   "rich",
+   "setuptools",
+   "six",
+   "termcolor",
+   "typing-extensions",
+   "urllib3",
+   "wheel",
+   "wrapt"
+  ],
+  "n_direct": 20,
+  "n_transitive": 31
+ },
+ "torch": {
+  "version": "2.15.0",
+  "github_repo": "pytorch/pytorch",
+  "found": true,
+  "direct_deps": [
+   "cuda-bindings",
+   "cuda-toolkit",
+   "filelock",
+   "fsspec",
+   "jinja2",
+   "networkx",
+   "nvidia-cudnn-cu13",
+   "nvidia-cusparselt-cu13",
+   "nvidia-nccl-cu13",
+   "nvidia-nvshmem-cu13",
+   "setuptools",
+   "sympy",
+   "triton",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "cuda-bindings",
+   "cuda-pathfinder",
+   "cuda-toolkit",
+   "filelock",
+   "fsspec",
+   "importlib-metadata",
+   "jinja2",
+   "markupsafe",
+   "mpmath",
+   "networkx",
+   "nvidia-cublas",
+   "nvidia-cuda-cccl",
+   "nvidia-cuda-nvrtc",
+   "nvidia-cudnn-cu13",
+   "nvidia-cusparselt-cu13",
+   "nvidia-nccl-cu13",
+   "nvidia-nvshmem-cu13",
+   "setuptools",
+   "sympy",
+   "triton",
+   "typing-extensions",
+   "zipp"
+  ],
+  "n_direct": 14,
+  "n_transitive": 22
+ },
+ "opencv-python": {
+  "version": "5.0.0.93",
+  "github_repo": "opencv/opencv-python",
+  "found": true,
+  "direct_deps": [
+   "numpy"
+  ],
+  "transitive_deps": [
+   "numpy"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "pymongo": {
+  "version": "4.19.0",
+  "github_repo": "mongodb/mongo-python-driver",
+  "found": true,
+  "direct_deps": [
+   "dnspython"
+  ],
+  "transitive_deps": [
+   "dnspython"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "psycopg2": {
+  "version": "2.9.13",
+  "github_repo": "psycopg/psycopg2",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "alembic": {
+  "version": "1.20.1",
+  "github_repo": "sqlalchemy/alembic",
+  "found": true,
+  "direct_deps": [
+   "mako",
+   "sqlalchemy",
+   "tomli",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "mako",
+   "markupsafe",
+   "sqlalchemy",
+   "tomli",
+   "typing-extensions"
+  ],
+  "n_direct": 4,
+  "n_transitive": 5
+ },
+ "marshmallow": {
+  "version": "4.3.1",
+  "github_repo": "marshmallow-code/marshmallow",
+  "found": true,
+  "direct_deps": [
+   "backports-datetime-fromisoformat",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "backports-datetime-fromisoformat",
+   "typing-extensions"
+  ],
+  "n_direct": 2,
+  "n_transitive": 2
+ },
+ "cryptography": {
+  "version": "50.0.2",
+  "github_repo": "pyca/cryptography",
+  "found": true,
+  "direct_deps": [
+   "cffi",
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "cffi",
+   "pycparser",
+   "typing-extensions"
+  ],
+  "n_direct": 2,
+  "n_transitive": 3
+ },
+ "pyjwt": {
+  "version": "2.15.1",
+  "github_repo": "jpadilla/pyjwt",
+  "found": true,
+  "direct_deps": [
+   "typing-extensions"
+  ],
+  "transitive_deps": [
+   "typing-extensions"
+  ],
+  "n_direct": 1,
+  "n_transitive": 1
+ },
+ "arrow": {
+  "version": "1.4.0",
+  "github_repo": "arrow-py/arrow",
+  "found": true,
+  "direct_deps": [
+   "python-dateutil",
+   "tzdata"
+  ],
+  "transitive_deps": [
+   "python-dateutil",
+   "tzdata"
+  ],
+  "n_direct": 2,
+  "n_transitive": 2
+ },
+ "pendulum": {
+  "version": "3.3.0",
+  "github_repo": "sdispater/pendulum",
+  "found": true,
+  "direct_deps": [
+   "python-dateutil",
+   "tzdata"
+  ],
+  "transitive_deps": [
+   "python-dateutil",
+   "tzdata"
+  ],
+  "n_direct": 2,
+  "n_transitive": 2
+ },
+ "loguru": {
+  "version": "0.7.3",
+  "github_repo": "Delgan/loguru",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "tqdm": {
+  "version": "4.70.1",
+  "github_repo": "tqdm/tqdm",
+  "found": true,
+  "direct_deps": [],
+  "transitive_deps": [],
+  "n_direct": 0,
+  "n_transitive": 0
+ },
+ "docker": {
+  "version": "7.2.0",
+  "github_repo": "docker/docker-py",
+  "found": true,
+  "direct_deps": [
+   "requests",
+   "urllib3"
+  ],
+  "transitive_deps": [
+   "certifi",
+   "charset-normalizer",
+   "idna",
+   "requests",
+   "urllib3"
+  ],
+  "n_direct": 2,
+  "n_transitive": 5
+ },
+ "kubernetes": {
+  "version": "37.0.1",
+  "github_repo": "kubernetes-client/python",
+  "found": true,
+  "direct_deps": [
+   "aiohttp",
+   "aiohttp-retry",
+   "certifi",
+   "durationpy",
+   "pydantic",
+   "python-dateutil",
+   "pyyaml",
+   "requests",
+   "requests-oauthlib",
+   "typing-extensions",
+   "urllib3",
+   "websocket-client"
+  ],
+  "transitive_deps": [
+   "aiohappyeyeballs",
+   "aiohttp",
+   "aiohttp-retry",
+   "aiosignal",
+   "annotated-types",
+   "async-timeout",
+   "attrs",
+   "certifi",
+   "charset-normalizer",
+   "durationpy",
+   "frozenlist",
+   "idna",
+   "multidict",
+   "oauthlib",
+   "propcache",
+   "pydantic",
+   "pydantic-core",
+   "python-dateutil",
+   "pyyaml",
+   "requests",
+   "requests-oauthlib",
+   "typing-extensions",
+   "typing-inspection",
+   "tzdata",
+   "urllib3",
+   "websocket-client",
+   "yarl"
+  ],
+  "n_direct": 12,
+  "n_transitive": 27
+ }
+}

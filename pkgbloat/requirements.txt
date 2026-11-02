@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+scipy
+matplotlib
+networkx
+dash
+dash-cytoscape
+plotly

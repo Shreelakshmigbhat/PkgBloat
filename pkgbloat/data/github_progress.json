@@ -1,0 +1,122 @@
+{
+ "requests": {
+  "issues_total": 4183,
+  "crash_issues": 1392,
+  "dep_error_issues": 241,
+  "stars": 54811
+ },
+ "flask": {
+  "issues_total": 2770,
+  "crash_issues": 713,
+  "dep_error_issues": 175,
+  "stars": 75164
+ },
+ "django": {
+  "issues_total": 0,
+  "crash_issues": 0,
+  "dep_error_issues": 0,
+  "stars": 91717
+ },
+ "fastapi": {
+  "issues_total": 3556,
+  "crash_issues": 788,
+  "dep_error_issues": 116,
+  "stars": 104563
+ },
+ "numpy": {
+  "issues_total": 14149,
+  "crash_issues": 4772,
+  "dep_error_issues": 1155,
+  "stars": 33232
+ },
+ "pandas": {
+  "issues_total": 28655,
+  "crash_issues": 6963,
+  "dep_error_issues": 966,
+  "stars": 50286
+ },
+ "scipy": {
+  "issues_total": 11743,
+  "crash_issues": 3378,
+  "dep_error_issues": 802,
+  "stars": 15179
+ },
+ "matplotlib": {
+  "issues_total": 11441,
+  "crash_issues": 2506,
+  "dep_error_issues": 548,
+  "stars": 23412
+ },
+ "seaborn": {
+  "issues_total": 2668,
+  "crash_issues": 438,
+  "dep_error_issues": 81,
+  "stars": 14097
+ },
+ "scikit-learn": {
+  "issues_total": 12345,
+  "crash_issues": 2936,
+  "dep_error_issues": 585,
+  "stars": 67972
+ },
+ "pytest": {
+  "issues_total": 6440,
+  "crash_issues": 1844,
+  "dep_error_issues": 422,
+  "stars": 14662
+ },
+ "black": {
+  "issues_total": 2838,
+  "crash_issues": 457,
+  "dep_error_issues": 116,
+  "stars": 42094
+ },
+ "pylint": {
+  "issues_total": 6068,
+  "crash_issues": 1373,
+  "dep_error_issues": 238,
+  "stars": 5748
+ },
+ "flake8": {
+  "issues_total": 1625,
+  "crash_issues": 272,
+  "dep_error_issues": 114,
+  "stars": 3834
+ },
+ "mypy": {
+  "issues_total": 12231,
+  "crash_issues": 2203,
+  "dep_error_issues": 3364,
+  "stars": 20714
+ },
+ "sphinx": {
+  "issues_total": 7567,
+  "crash_issues": 1820,
+  "dep_error_issues": 357,
+  "stars": 8086
+ },
+ "notebook": {
+  "issues_total": 5076,
+  "crash_issues": 960,
+  "dep_error_issues": 335,
+  "stars": 13458
+ },
+ "ipython": {
+  "issues_total": 7611,
+  "crash_issues": 2118,
+  "dep_error_issues": 370,
+  "stars": 16796
+ },
+ "tornado": {
+  "issues_total": 1889,
+  "crash_issues": 620,
+  "dep_error_issues": 60,
+  "stars": 22163
+ },
+ "aiohttp": {
+  "issues_total": 3268,
+  "crash_issues": 1481,
+  "dep_error_issues": 135,
+  "stars": 16605
+ }
+}
