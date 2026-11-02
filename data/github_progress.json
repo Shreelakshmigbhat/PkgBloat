@@ -118,5 +118,65 @@
   "crash_issues": 1481,
   "dep_error_issues": 135,
   "stars": 16605
+ },
+ "httpx": {
+  "issues_total": 925,
+  "crash_issues": 302,
+  "dep_error_issues": 32,
+  "stars": 15954
+ },
+ "urllib3": {
+  "issues_total": 1393,
+  "crash_issues": 502,
+  "dep_error_issues": 99,
+  "stars": 4081
+ },
+ "boto3": {
+  "issues_total": 3635,
+  "crash_issues": 997,
+  "dep_error_issues": 123,
+  "stars": 9923
+ },
+ "sqlalchemy": {
+  "issues_total": 8366,
+  "crash_issues": 2518,
+  "dep_error_issues": 325,
+  "stars": 12277
+ },
+ "celery": {
+  "issues_total": 5358,
+  "crash_issues": 2067,
+  "dep_error_issues": 233,
+  "stars": 29119
+ },
+ "redis": {
+  "issues_total": 1979,
+  "crash_issues": 597,
+  "dep_error_issues": 65,
+  "stars": 13655
+ },
+ "pillow": {
+  "issues_total": 3504,
+  "crash_issues": 1359,
+  "dep_error_issues": 257,
+  "stars": 13961
+ },
+ "pydantic": {
+  "issues_total": 5807,
+  "crash_issues": 1512,
+  "dep_error_issues": 321,
+  "stars": 29269
+ },
+ "click": {
+  "issues_total": 1819,
+  "crash_issues": 370,
+  "dep_error_issues": 54,
+  "stars": 17814
+ },
+ "rich": {
+  "issues_total": 1551,
+  "crash_issues": 261,
+  "dep_error_issues": 37,
+  "stars": 57704
  }
 }
